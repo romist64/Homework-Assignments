@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>11-1</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <script src="script.js"></script>
+<form>
+	<fieldset>
+		<legend>Name Info</legend>
+		<label for="name">Name:</label><br>
+		<input type="text" id="name" name="name"><br>
+		<label for="email:">Email Address:</label><br>
+		<input type="text" id="email" name="email"><br>
+	</fieldset>
+	<fieldset>
+		<legend>Select the closest day to your birthday:</legend>
+		<input type="radio" id="6/14" name="birthday">
+		<label for="4/2/1">6/14</label><br>
+		<input type="radio" id="12/31" name="birthday">
+		<label for="12/31">12/31</label><br>
+		<input type="radio" id="1/1" name="birthday">
+		<label for="1/1">1/1</label><br>
+	</fieldset>
+	<fieldset>
+		<legend>Game Info</legend>
+		<fieldset>
+			<legend>Which of these three do you enjoy? Select all that apply.</legend>
+			<input type="checkbox" id="Minecraft" name="game">
+			<label for="Minecraft">Minecraft</label><br>
+			<input type="checkbox" id="Fallout" name="game">
+			<label for="Fallout">Fallout</label><br>
+			<input type="checkbox" id="XCOM" name="game">
+			<label for="XCOM">XCom</label><br>
+		</fieldset>
+		<label for="platform">Choose your platform of choice</label><br>
+		<select id="platform" name="platform" size="3" multiple>
+			<option value="pc">Computer or Steam Deck</option>
+			<option value="pc">Playstation or XBox</option>
+			<option value="pc">Switch or Other Portable</option>
+			<option value="pc">Phone or Other Console</option>
+		</select><br>
+		<label for="gamemessage">Write a message about your favorite game.</label><br>
+		<textarea name="gamemessage" rows="3" cols="60"></textarea> 
+	</fieldset>
+	<input type="submit" value="Submit">
+	<input type="reset" value="Reset">
+</body>
+
+  <a href="/index.html">Return to main</a>
+</html>
