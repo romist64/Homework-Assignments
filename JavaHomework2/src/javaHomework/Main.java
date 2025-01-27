@@ -11,5 +11,6 @@ public class Main {
 		System.out.print("You have to sell ");
 		System.out.print((double)Sales/(double)Days);
 		System.out.println(" sales per day.");
+		sombre.close();
 	}
 }
