@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module JavaHomework2 {
-	
-}
